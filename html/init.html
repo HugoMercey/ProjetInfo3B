@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta  charset="utf-8">
+    <meta name="author" content="Mercey Hugo">
+    <title>Projet Hugo MERCEY</title>
+    <script type="text/javascript" charset="UTF-8" src="../libs/three/three.js"></script>
+    <script type="text/javascript" src="../libs/util/dat.gui.js"></script>
+    <script type="text/javascript" src="../libs/util/Stats.js"></script>
+    <script type="text/javascript" src="../libs/util/util.js"></script>
+    <script type="text/javascript" src="../js/CameraLumiere.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body onload="init()">
+    <div id="webgl"></div>
+    <form id="controle" action="mailto:toto@wanadoo.fr" method="post">
+      <table id="TableauResult">
+        <tr>
+          <th class = "JoueurRouge">Raquette rouge-noire</th>
+          <th class = "JoueurJaune">Raquette jaune-noire</th>
+        </tr>
+        <tr>
+          <td class = "JoueurRouge"><div id="JoueurRougeResult">0</div></td>
+          <td class = "JoueurJaune"><div id="JoueurJauneResult">0</div></td>
+        </tr>
+      </table>     
+    </form>
+    <p id="result"></p>
+</body>
+
+</html>
